@@ -1,17 +1,8 @@
-using System;
-using System.CodeDom;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
-using UnityEngine.UIElements;
-using static FullScreenPassRendererFeature;
-using static UnityEditor.ShaderData;
 
 // Empty class to be used in scenes and doesn't implement any additional overrides
 public class FullscreenEffect : FullscreenEffectBase<FullscreenPassBase>
